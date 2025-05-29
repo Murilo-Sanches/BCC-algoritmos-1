@@ -1,3 +1,5 @@
+Sétima Lista de Exercícios:
+
 1 - Solicite um número e então diga se este é um número perfeito.
 
 2a - (já pode ter sido feito anteriormente) Adivinhe o número - Crie um programa que solicita um número ao usuário entre 1 e 10, sorteia um outro número dentro desta faixa de valores, e então diz se os dois números são iguais.

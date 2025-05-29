@@ -1,4 +1,5 @@
-Sexta Lista de Exercícios
+Sexta Lista de Exercícios:
+
 1 - Escreva um programa que exibe qualquer tabuada completa. O programa deve perguntar ao usuário qual tabuada ele deseja visualizar, que irá responder digitando um número de 1 a 10.
 
 2 - Escreva um programa que exibe o quadrado de todos os números de 1 a 20.
