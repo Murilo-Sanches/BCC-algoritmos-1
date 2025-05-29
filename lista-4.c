@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// 1 - Escreva um programa solicita um numero e exibe a mensagem "SENAC" se este número for 14, 24, 23, 32 ou 33.
 void _1()
 {
     int number;
@@ -14,7 +13,6 @@ void _1()
     }
 }
 
-// 2 - Escreva um programa que solicita um número inteiro. Exiba uma mensagem de erro se o número informado estiver entre 15 e 25 ou entre 45 e 50 (inclusive).
 void _2()
 {
     int number;
@@ -28,7 +26,6 @@ void _2()
     }
 }
 
-// 3 - Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 80, menor que 25 ou igual a 40.
 void _3()
 {
     int number;
@@ -42,10 +39,6 @@ void _3()
     }
 }
 
-/**
- * 4 - Escrever um algoritmo que leia três valores inteiros e verifique se eles podem ser as medidas dos lados de um triângulo.
- * Propriedade: o comprimento de cada lado de um triângulo é menor do que a soma dos comprimentos dos outros dois lados.
- */
 void _4()
 {
     int a, b, c;
@@ -63,7 +56,6 @@ void _4()
     }
 }
 
-// 5 - Incremente o exercício anterior, para o caso das medidas formarem um triângulo válido, informar qual o tipo de triângulo que eles formam: equilátero, isósceles ou escaleno.
 void _5()
 {
     int a, b, c;
@@ -94,7 +86,6 @@ void _5()
     }
 }
 
-// 6 - Incremente o exercício anterior, agora informando se este é também um triângulo retângulo.
 void _6()
 {
     int a, b, c;
@@ -129,7 +120,6 @@ void _6()
     }
 }
 
-// 7 - Crie um programa que desafia o usuário digitar um número maior que 40, que seja múltiplo de 5 e 7. Se ele conseguir, deve receber uma mensagem de parabéns.
 void _7()
 {
     int num;

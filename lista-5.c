@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-// 1 - Sorteie um número de 1 a 100, exiba na tela e informe se é um número par ou ímpar.
 void _1()
 {
     int num = rand() % 100 + 1;
@@ -18,7 +17,6 @@ void _1()
     }
 }
 
-// 2 - Sorteie 3 números de 1 a 10, e aplique todas as coisas que fizemos com o programa sobre triângulos da lista passada, verificando se forma um triângulo e classificando o mesmo.
 void _2()
 {
     int a = rand() % 10 + 1;
@@ -50,7 +48,6 @@ void _2()
     }
 }
 
-// 3 - Escreva um programa que sorteia um número de 1 a 10 e dá duas chances para que o usuário acerte. O programa não deve alterar o número sorteado, e só deve pedir o segundo palpite, caso a pessoa erre sua primeira tentativa.
 void _3()
 {
     int num = rand() % 10 + 1;
@@ -80,7 +77,6 @@ void _3()
     }
 }
 
-// 4 - Escreva um programa que sorteia um número de 1 a 10, dá duas chances para que o usuário acerte, mas dá uma pista após a primeira tentativa, dizendo se o número sorteado é maior ou menor que o primeiro palpite.
 void _4()
 {
     int num = rand() % 10 + 1;
@@ -118,7 +114,6 @@ void _4()
     }
 }
 
-// 5 - Sorteie dois números de 1 a 5 e peça que o usuário acerte os dois números de uma vez, não necessariamente na mesma ordem.
 void _5()
 {
     int num1 = rand() % 5 + 1;
@@ -142,7 +137,6 @@ void _5()
     }
 }
 
-// 6 - Sorteie dois números de 1 a 10. Informe quantos destes números estão entre 3 e 7 (inclusive). Extra: Pense em uma solução que seria facilmente expandida para 3, 4 ou 5 números sorteados.
 void _6()
 {
     // Sorteia dois números entre 1 e 10
@@ -165,7 +159,6 @@ void _6()
     printf("Existem %d números entre 3 e 7.\n", count);
 }
 
-// Desafio Jedi Master 7 - Escreva um programa que joga par ou ímpar com o usuário. Ele deve começar perguntando se o usuário escolhe 1 - Par ou 2 - Ímpar. (A escolha é informada digitando 1 ou 2).
 void _7()
 {
     int escolha, numero, computador;

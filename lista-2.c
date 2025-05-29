@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// 1. Escreva um programa que ajuda os alunos a calcularem as notas desta disciplina. O programa deve perguntar as notas da primeira e da segunda prova, calcular a média aritmética entre elas, e exibir na tela.
 void _1()
 {
     float firstResult, secondResult, averageResult;
@@ -15,7 +14,6 @@ void _1()
     printf("A média aritmética das suas notas foi: %.2f.\n", averageResult);
 }
 
-// 2. Escreva um algoritmo para calcular o consumo médio de um automóvel (medido em km/l), dado que são conhecidos a distância total percorrida e o volume de combustível consumido para percorrê-la (medido em litros).
 void _2()
 {
     float distanceTraveled, fuelUsed, averageResult;
@@ -30,7 +28,6 @@ void _2()
     printf("Para percorrer %.2fkm foi usado %.2fl de combustível, com uma média de consumo de %.2fkm/l.\n", distanceTraveled, fuelUsed, averageResult);
 }
 
-// 3. Em uma festa, homens pagam 20 reais de entrada e as mulheres pagam 17. Crie um programa que pergunta quantos homens e quantas mulheres participaram da festa e calcula o valor total arrecadado com as entradas.
 void _3()
 {
     float maleTicketPrice = 20;
@@ -50,7 +47,6 @@ void _3()
     printf("Compareceram %d homens (taxa de R$ %.2f) e %d mulheres (taxa de R$ %.2f), os ganhos totais foram: R$ %.2f.\n", menCount, maleTicketPrice, womenCount, femaleTicketPrice, totalEarnings);
 }
 
-// 4. Crie um programa que calcula o volume de um cilindro, solicitando que o usuário digite apenas a medida do raio e a altura do mesmo.
 void _4()
 {
     float radius, height, volume;
@@ -65,7 +61,6 @@ void _4()
     printf("O volume do cilindro é: %.2f.\n", volume);
 }
 
-// 5. Fazer um algoritmo para ler os valores dos coeficientes A, B e C de uma equação quadrática. Calcular e imprimir o valor do discriminante (delta). Delta = B²– 4AC.
 void _5()
 {
     float a, b, c, delta;
@@ -85,7 +80,6 @@ void _5()
     printf("O discriminante da equação quadrática com os coeficientes A = %.2f, B = %.2f e C = %.2f é igual a %.2f.\n", a, b, c, delta);
 }
 
-// 6. Escreva um programa que solicita um número e então exibe 0 se o número for par, e 1 se o número for ímpar. (Não utilize o comando IF ainda).
 void _6()
 {
     int number;
@@ -96,7 +90,6 @@ void _6()
     printf("Resultado para o seu número: %d.\n", number % 2);
 }
 
-// 7. Peça ao usuário para digitar uma temperatura em graus Celsius e, em seguida, exiba a temperatura equivalente em graus Fahrenheit.
 void _7()
 {
     float celsiusTemperature;
@@ -107,7 +100,6 @@ void _7()
     printf("A temperatura %.2f°C é igual a %.2f°F.\n", celsiusTemperature, (celsiusTemperature * 9 / 5) + 32);
 }
 
-// 8. Peça ao usuário para digitar três números float e, em seguida, calcule e exiba a média aritmética desses números."
 void _8()
 {
     float firstResult, secondResult, thirdResult, averageResult;

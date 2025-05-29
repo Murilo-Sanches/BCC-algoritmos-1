@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// 1. Faça um algoritmo que receba um número e mostre a mensagem "Sim" caso este número seja maior que 10. Se for menor ou igual, o programa deve encerrar sem exibir mais nada.
 void _1()
 {
     float number;
@@ -14,7 +13,6 @@ void _1()
     }
 }
 
-// 2. Solicite que o usuário digite um número. Informe então se este número é par ou ímpar.
 void _2()
 {
     int number;
@@ -32,7 +30,6 @@ void _2()
     }
 }
 
-// 3. Escrever um algoritmo que leia dois valores inteiro distintos e informe qual deles é o maior.
 void _3()
 {
     int fistNumber, secondNumber;
@@ -50,7 +47,6 @@ void _3()
     }
 }
 
-// 4. Altere o exercício anterior de forma que ele informe também se os números são iguais.
 void _4()
 {
     int fistNumber, secondNumber;
@@ -72,7 +68,6 @@ void _4()
     }
 }
 
-// 5. Crie um programa que recebe um número inteiro e informa se este número é múltiplo de 10.
 void _5()
 {
     int number;
@@ -90,7 +85,6 @@ void _5()
     }
 }
 
-// 6. Crie um programa que recebe dois números inteiros. Exiba a mensagem "sim" apenas caso ambos sejam maiores que 10.
 void _6()
 {
     int fistNumber, secondNumber;

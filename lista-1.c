@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * 1 - Escreva um programa que exibe a mensagem:
- * Bom dia!
- * Estou aprendendo a programar
- * Definitivamente não é "muito" difícil
- */
 void _1()
 {
     printf("Bom dia!\n");
@@ -13,32 +7,16 @@ void _1()
     printf("Definitivamente não é \"muito\" difícil\n");
 }
 
-/**
- * 2 - Escreva um programa que exibe na tela a seguinte mensagem:
- * Suas notas são ___ e ____ e sua média é ____
- * (substituindo a parte sublinhada por três valores, sendo que o último é calculado).
- */
 void _2()
 {
     printf("Suas notas são %.2f e %.2f e sua média é %.2f", 5.5, 6.0, (5.5 + 6) / 2);
 }
 
-/**
- * 3 - Escreva um programa que realiza este cálculo e exibe o valor correto com a mensagem na tela:
- * Vamos distribuir 359 carros para 4 pessoas e portanto devem sobrar ___ carros.
- */
 void _3()
 {
     printf("Vamos distribuir 359 carros para 4 pessoas e portanto devem sobrar %d carros.", 359 % 4);
 }
 
-/**
- * 4 - Exiba as seguintes mensagens na tela, fazendo os cálculos necessários pelo programa:
- * Eu tenho um círculo de raio 5.
- * Portanto o diâmetro é ___
- * A área é ___
- * E a medida da circunferência é ___
- */
 void _4()
 {
     printf("Eu tenho um círculo de raio 5.\n");
